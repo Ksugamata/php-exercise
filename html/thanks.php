@@ -26,7 +26,6 @@ if (isset($_SESSION["form_data"])) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <h2>送信完了</h2>
     <p>お名前: <?php echo $name; ?></p>
     <p>メールアドレス: <?php echo $email; ?></p>
     <p>パスワード: <?php echo $password; ?></p>
